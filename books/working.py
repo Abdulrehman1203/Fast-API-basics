@@ -15,7 +15,7 @@ class Book(BaseModel):
     price: int
 
 
-""" Method to delete a book from the list"""
+
 
 
 @app.get("/books", response_model=List[Book])
