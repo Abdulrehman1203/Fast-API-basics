@@ -15,7 +15,7 @@ class Book(BaseModel):
     price: int
 
 
-""" Method to get details of all the books"""
+
 
 
 @app.get("/books", response_model=List[Book])
